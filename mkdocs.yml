@@ -1,0 +1,73 @@
+site_name: 数字课本技术
+site_url: https://wangyantong2000.github.io/shuzikeben.github.io/
+repo_name: hypertrons/hypertrons-crx
+repo_url: https://github.com/hypertrons/hypertrons-crx
+edit_uri: tree/main/docs
+version: 1.0.0
+theme:
+  name: material
+  language: zh
+
+# Copyright
+copyright: Copyright &copy; 2022-2024 krahets<br>The website content is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+
+# Configuration
+theme:
+  name: material
+
+  language: zh
+  features:
+    - announce.dismiss
+    - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: default
+      primary: white
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 深色模式
+    - scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/theme-light-dark
+        name: 浅色模式
+  
+
+
+# extra:
+#   alternate:
+#     - name: 简体中文
+#       link: /
+#       lang: zh
+#     - name: 繁體中文
+#       link: /zh-hant/
+#       lang: zh-Hant
+#     - name: English
+#       link: /en/
+#       lang: en
+ 
+  generator: false
+  status:
+    new: 最近添加
